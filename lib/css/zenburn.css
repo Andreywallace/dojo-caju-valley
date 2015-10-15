@@ -5,6 +5,10 @@ based on dark.css by Ivan Sagalaev
 
 */
 
+strong{
+color: #aee074;
+}
+
 .slide1 {
     height: 100%;
 }
