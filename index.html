@@ -1,185 +1,527 @@
 <!doctype html>
-<html lang="pt">
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-<head>
-    <meta charset="utf-8">
+		<title>reveal.js</title>
 
-    <title>Caju Calley</title>
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/blood.css">
 
-    <meta name="description" content="A framework for easily creating beautiful presentations using HTML">
-    <meta name="author" content="Hakim El Hattab">
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+        <link rel=stylesheet href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    <meta name="apple-mobile-web-app-capable" content="yes" />
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
-
-    <link rel="stylesheet" href="css/reveal.css">
-    <link rel="stylesheet" href="css/theme/blood.css" id="theme">
-    <link href="css/animate.css" type="text/css" rel="stylesheet" media="screen,projection" />
-
-    <!-- Code syntax highlighting -->
-    <link rel="stylesheet" href="lib/css/zenburn.css">
-
-    <!-- Printing and PDF exports -->
-    <script>
-        var link = document.createElement('link');
-        link.rel = 'stylesheet';
-        link.type = 'text/css';
-        link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
-        document.getElementsByTagName('head')[0].appendChild(link);
-    </script>
-
-    <!--[if lt IE 9]>
-		<script src="lib/js/html5shiv.js"></script>
-		<![endif]-->
-</head>
-
-<body>
-
-    <div class="reveal">
-
-        <!-- Any section element inside of this container is displayed as a slide -->
-        <div class="slides" id="inicial">
-
-
-          <section class="slide1 present" data-background-transition="zoom" data-background="lib/img/img23.jpg" data-background-image="lib/img/img23.jpg" style="top: 0px; display: block;">
-
-                <h1 class="shadow-text animated slideInDown" style="font-size: 4.2em;">Startups dojo</h1>
-                <h4 class="shadow-text  animated zoomIn"> Criando e remodelando <strong > negócios</strong> no Caju Valley</h4>
-            </section>
-
-
-            <section class="slide1 present" id="significado" data-background="lib/img/img01.jpg" data-background-transition="convex" data-background-image="lib/img/img01.jpg" style="top: 0px; display: block;">
-                <h2 class="shadow-text wow slideInLeft" style="visibility: visible;"> O que é o startups dojo?</h2>
-                <h4 class="shadow-text wow  slideInRight" style="text-transform: inherit; visibility: visible;">
-                    O  <strong >Startup Dojo</strong> é um encontro recorrente, que tem como objetivo criar um grupo de suporte, aprendizado e mentoria colaborativa entre co-fundadores e equipes de Startups. 
-                </h4>
-
-            </section>
-
-
-
-            <section id="acreditamos" class="slide1" data-background="lib/img/img02.jpg" data-background-transition="convex">
-                <h3 class="shadow-text wow zoomIn"> Objetivos</h3>
-                <p class="shadow-text  fragment fade-in"> <strong >Compartilhar </strong> conhecimento.</p>
-                <p class="fragment shadow-text fade-in"><strong >Aprimorar</strong> a comunidade sergipana de empreendedores.</p>
-                <p class="fragment shadow-text fade-in"><strong >Executar</strong> novos negócios.</p>
-
-                <p class="fragment shadow-text fade-in"><strong >Impactar</strong> nos negócios dos membros presentes.</p>
-
-
-            </section>
-
-
-            <section id="valores" class="slide1" data-background="lib/img/img19.jpg" data-background-transition="convex">
-                <h3 class="shadow-text wow zoomIn"> Valores</h3>
-                <p class="shadow-text  fragment fade-in"><strong> Cooperação:</strong> Um tema para o proposto é construída com a cooperação de todos os participantes, o que cria um ambiente colaborativo.</p>
-                <p class="fragment shadow-text fade-in"><strong>Participação:</strong> Todos os participantes participam do debate, o que cria um sentimento de igualdade entre todos os envolvidos. Não existem opiniões mais “importantes”.</p>
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
                 
-                <p class="fragment shadow-text fade-in"><strong >Coragem:</strong> O ambiente do Dojo propicia que todos desenvolvam essa característica, trabalhando em projetos que permitem que aconteçam erros.</p>
-            </section>
+                
+                <!-- Capa  -->
+                <section  data-background="lib/img/03.png" data-background-transition="convex">
+                   <h2 style="margin-top:-20%">Dojo no Caju Valley</h2>
+					<h4>MidiaKit</h4>
+					<p>
+						<small>Evento organizado pela comunidade <a href="https://www.facebook.com/cajuvalley/?fref=ts">Caju Valley</a></small>
+					</p>
+                </section>
+                
+                
+				<!-- O que é o Caju Valley  -->
+                <section data-background="lib/img/02.png" style="margin-top:-20%" data-background-transition="convex">
+                    <h2>O QUE É O CAJU VALLEY?</h2>
+                    <p style="text-align:justify" class="sm-p">O Caju Valley não se resume a um local, pessoa, empresa ou organização. Somos uma comunidade plural, formada por e para empreendedores sergipanos movidos pela necessidade de criar soluções que resolvam os problemas das pessoas e empresas. 
+</p>
+                </section>
+                
+                <!-- O que é o DOJO -->
+                 <section data-background="lib/img/04.png" style="margin-top:-15%" data-background-transition="convex">
+                    <h2>O QUE É O DOJO?</h2>
+                    <p style="text-align:justify" class="sm-p">É um evento de frequência mensal com a missão de criar relacionamento entre empresários inovadores, investidores e grandes empresas atuantes na nossa região.
+</p>
+                        <p style="text-align:justify" class="sm-p">O objetivo é fazer com que os negócios inovadores se capacitem, recebem investimentos e que as grandes empresas possam comprar soluções inovadoras que de fato as ajudem a resolver problemas. </p>
+                </section>
+            
+                
+                   <!-- O quem participa -->
+                 <section  data-background="lib/img/05.png" data-background-transition="convex">
+                    <h1>Quem participa?</h1>
+                </section>
+                
+                
+                
+                    <section  data-background="lib/img/16.png" data-background-transition="convex">
+                    
+                     <h3> <i class="fa fa-lightbulb-o">  </i>Até  10 negócios inovadores </h3>
+                       <blockquote cite="http://searchservervirtualization.techtarget.com/definition/Our-Favorite-Technology-Quotations">
+                           Apresentam seus negócios, definem os tema do debate com especialista e possuem a oportunidade de interagir em exclusivo com investidor e a empresa âncora presente. 
+					</blockquote>
+                   
+                </section> 
+                
+                <!-- O investidor -->
+                 <section  data-background="lib/img/17.png" data-background-transition="zoom">
+                    
+                     <h3> <i class="fa fa-handshake-o">  </i> Um Investidor </h3>
+                     <blockquote cite="http://searchservervirtualization.techtarget.com/definition/Our-Favorite-Technology-Quotations">
+				        Sua missão é conhecer os negócios inovadores e de forma exclusiva informar o que o levaria a investir no negócio.
+					</blockquote>
+                   
+                </section>
+                
+                                 <section  data-background="lib/img/16.png" data-background-transition="zoom">
+                    
+                     <h3> <i class="fa fa-graduation-cap">  </i> Um especialista </h3>
+                                     <blockquote cite="http://searchservervirtualization.techtarget.com/definition/Our-Favorite-Technology-Quotations">
+						Oferta sua mentoria as empresas inovadores em uma mesa aberta sobre o tema a ser debatido durante todo o evento.
+					</blockquote>
+                   
+                </section>
+                
+                    <section  data-background="lib/img/17.png" data-background-transition="convex">
+                    
+                     <h3> <i class="fa fa-money">  </i> Uma empresa âncora </h3>
+                                     <blockquote cite="http://searchservervirtualization.techtarget.com/definition/Our-Favorite-Technology-Quotations">
+                        Vê a apresentação de todos os negócios inovadores e conversa com todos de forma exclusiva, analisando como esses negócios inovadores
+                                         são de seu interesse.
+					</blockquote>
+                   
+                </section>
+                
+                
+                     <!-- Como funciona -->
+                 <section  data-background="lib/img/06.png" data-background-transition="convex">
+                    <h1>Como funciona?</h1>     
+                </section>
+                  
+                 
+                <section  data-background="lib/img/10.png" data-background-transition="convex">
+                     <h4> <i class="fa fa-microphone ">  </i> 1° Etapa - Apresentação dos convidados</h4>
+                        <blockquote  class="blockquote-photos fragment " cite="http://searchservervirtualization.techtarget.com/definition/Our-Favorite-Technology-Quotations">
+                                    Investidor / Especialista <br> Representante da empresa âncora
+					</blockquote>             
+                        <blockquote  class="blockquote-photos fragment " cite="http://searchservervirtualization.techtarget.com/definition/Our-Favorite-Technology-Quotations">
+                                    6 minutos para cada apresentação.
+					</blockquote>
+                         <blockquote class="blockquote-photos fragment "  cite="http://searchservervirtualization.techtarget.com/definition/Our-Favorite-Technology-Quotations">
+                            Sua área de atuação. <br> Sua trajetória profissional. <br> O que buscam das empresas inovadoras.
+					</blockquote>
+                </section>
+                
+                
+                <section  data-background="lib/img/07.png" data-background-transition="convex">
+                     <h4> <i class="fa fa-microphone ">  </i> 2° Etapa - Pitchs dos negócios inovadores </h4>
+                                     <blockquote  class="blockquote-photos fragment " cite="http://searchservervirtualization.techtarget.com/definition/Our-Favorite-Technology-Quotations">
+                        Todos os 10 negócios terão 4 minutos cada para se apresentar. 
+					</blockquote>
+                         <blockquote class="blockquote-photos fragment "  cite="http://searchservervirtualization.techtarget.com/definition/Our-Favorite-Technology-Quotations">
+                            Qual o problema resolvem? <br> Qual é a sua solução?  <br> Como eles resolvem o problema? <br> O que precisam para evoluir?
+					</blockquote>
+                </section>
+                           
+                
+                <section  data-background="lib/img/09.png" data-background-transition="convex">
+                     <h4> <i class="fa fa-exchange">  </i> 3° Etapa - Consultoria com especialista</h4>
+                                     <blockquote  class="blockquote-photos fragment " cite="http://searchservervirtualization.techtarget.com/definition/Our-Favorite-Technology-Quotations">
+                                Formato aberto no estilo Alcoólicos Anônimos.
+					</blockquote>
+                         <blockquote class="blockquote-photos fragment "  cite="http://searchservervirtualization.techtarget.com/definition/Our-Favorite-Technology-Quotations">
+                           100 minutos de duração
+					</blockquote>
+                               <blockquote class="blockquote-photos fragment "  cite="http://searchservervirtualization.techtarget.com/definition/Our-Favorite-Technology-Quotations">
+                           Tema definido pelos negócios inovadores.
+					</blockquote>
+                    
+                    <blockquote class="blockquote-photos fragment "  cite="http://searchservervirtualization.techtarget.com/definition/Our-Favorite-Technology-Quotations">
+                           Foco em problemas empresáriais
+					</blockquote>
+                </section>
+                            
+                
+                <section  data-background="lib/img/01.png" data-background-transition="convex">
+                     <h4> <i class="fa fa-microphone ">  </i> 4° Etapa - Papo com investidor</h4>
+                    <blockquote  class="blockquote-photos fragment " cite="http://searchservervirtualization.techtarget.com/definition/Our-Favorite-Technology-Quotations">
+                        10 minutos com cada negócio inovador.
+					</blockquote>
+                                        <blockquote  class="blockquote-photos fragment " cite="http://searchservervirtualization.techtarget.com/definition/Our-Favorite-Technology-Quotations">
+                        Conversa em uma sala separada.
+					</blockquote>
+                    <blockquote  class="blockquote-photos fragment " cite="http://searchservervirtualization.techtarget.com/definition/Our-Favorite-Technology-Quotations">
+                        Alguns investidores não serão presenciais e sim via hangout.
+					</blockquote>
+                </section>
+                
+                                
+                <section  data-background="lib/img/08.png" data-background-transition="convex">
+                     <h4> <i class="fa fa-microphone ">  </i> 5° Etapa - Papo com empresa âncora</h4>
+                                     <blockquote  class="blockquote-photos fragment " cite="http://searchservervirtualization.techtarget.com/definition/Our-Favorite-Technology-Quotations">
+                         10 minutos de duracão para cada negócio.
+					</blockquote>
+                                        <blockquote  class="blockquote-photos fragment " cite="http://searchservervirtualization.techtarget.com/definition/Our-Favorite-Technology-Quotations">
+                       Conversa em uma sala separada.
+					</blockquote>
+                     <blockquote  class="blockquote-photos fragment " cite="http://searchservervirtualization.techtarget.com/definition/Our-Favorite-Technology-Quotations">
+                        Conversa sempre presencial.
+					</blockquote>
 
-            <section id="valores2" class="slide1" data-background="lib/img/img09.jpg" data-background-transition="convex">
-                <h3 class="shadow-text wow zoomIn"> Valores</h3>
-                <p class="fragment shadow-text fade-in"><strong >Respeito: </strong>Todos os participantes devem respeitar a solução proposta pelos demais. Como o intuito é aprender, o respeito pelo tempo de cada participante é fundamental.</p>
-                <p class="fragment shadow-text fade-in"><strong >Simplicidade:</strong> O Dojo serve para compartilhar conhecimentos e experiências entre os participantes. Como cada participante pode estar em um nível técnico diferente, é importante que seja mantida a simplicidade, de forma que todos consigam entender exatamente o que está sendo discutido.</p>
-            </section>
+                </section>
+                
+                
+                 <section  data-background="lib/img/11.png" data-background-transition="convex">
+                     <h4> <i class="fa fa-microphone ">  </i> 6° Etapa - Definir o próximo Dojo.</h4>
+                                     <blockquote  class="blockquote-photos fragment " cite="http://searchservervirtualization.techtarget.com/definition/Our-Favorite-Technology-Quotations">
+                         Definir o tema da próxima consultoria colaborativa.
+					</blockquote>
+                                        <blockquote  class="blockquote-photos fragment " cite="http://searchservervirtualization.techtarget.com/definition/Our-Favorite-Technology-Quotations">
+                       Informar qual será a empresa âncora do próximo evento.
+					</blockquote>
+                     <blockquote  class="blockquote-photos fragment " cite="http://searchservervirtualization.techtarget.com/definition/Our-Favorite-Technology-Quotations">
+                           Informar qual será o investidor do próximo evento.
+					</blockquote>
 
+                </section>
 
-            <section id="regras" class="slide1" data-background="lib/img/img03.jpg" data-background-transition="convex">
-                <h3 class="shadow-text wow zoomIn"> Regras</h3>
-                <p class="shadow-text fragment fade-in">Frequência mensal.</p>
-                <p class=" fragment  shadow-text fade-in">Cada encontro organizado por um membro do grupo.</p>
-                <p class=" fragment  shadow-text fade-in">Máximo de 20 pessoas por Dojo ou 5 Startups (co-fundadores e membros da equipe) para proporcionar um alto engajamento.</p>
-                <p class=" fragment  shadow-text fade-in">Após cada encontro, o grupo deve registra no site do Dojo um relato de quais foram os aprendizados.</p>
+                                                     <!-- Como funciona -->
+                 <section  data-background="lib/img/13.png" data-background-transition="convex">
+                    <h1>Qual o impacto do evento?</h1>     
+                </section>
+                
+                <section  data-background="lib/img/13.png" data-background-transition="convex">
+                    <h3>Impacto do evento</h3>
+                     <blockquote  class="blockquote-photos fragment " cite="http://searchservervirtualization.techtarget.com/definition/Our-Favorite-Technology-Quotations">
+                      Único evento do estado que cria relacionamento entre investidores e negócios inovadores.
+					</blockquote>
+                     <blockquote  class="blockquote-photos fragment " cite="http://searchservervirtualization.techtarget.com/definition/Our-Favorite-Technology-Quotations">
+                        10 negócios com CNPJ ou em processo de incubação são avaliados por investidores e empresas âncoras.
+					</blockquote>
+                     <blockquote  class="blockquote-photos fragment " cite="http://searchservervirtualization.techtarget.com/definition/Our-Favorite-Technology-Quotations">
+                       Entidades importantes como incubadoras, empresas juniores, institutos de pesquisas e empresas privadas se relacionam com o Dojo.
+					</blockquote>
+                </section>
+                      
+                    <!-- Como funciona -->
+                 <section  data-background="lib/img/12.png" data-background-transition="convex">
+                    <h1>Quais os parceiros?</h1>     
+                </section>
+                
+                                    <!-- CJE -->
+                 <section  data-background="lib/img/cje.png" data-background-transition="convex">
+                   <img  src="lib/img/cjeLogo.png" />   
+                </section>
+                
+                                                    <!-- ITP -->
+                 <section  data-background="lib/img/itp.png" data-background-transition="convex">
+                   <img  src="lib/img/marca_itp.jpg" />   
+                </section>
+                              
+                                                    <!-- EJA -->
+                 <section  data-background="lib/img/eja.png" data-background-transition="convex">
+                   <img  src="lib/img/ejalogo.png" />   
+                </section>
+                
+                
+                  <!-- DADOS DA COMUNIDADE -->
+                 <section  data-background="lib/img/14.png" data-background-transition="convex">
+                    <h1>Dados da comunidade Caju Valley</h1>     
+                </section>
+                    
+                <section  data-background="lib/img/evento.png" data-background-transition="convex">
+                    <h3>Eventos realizados</h3>
+                        <h4>Encontro de empreendedores no Caju Valley</h4>
+                        <blockquote  class="blockquote-photos fragment " cite="http://searchservervirtualization.techtarget.com/definition/Our-Favorite-Technology-Quotations">
+                      30 edições (frequência mensal).
+					</blockquote>
+                        <blockquote  class="blockquote-photos fragment " cite="http://searchservervirtualization.techtarget.com/definition/Our-Favorite-Technology-Quotations">
+                      43 empresas inovadoras se apresentaram.
+					</blockquote>
+                      <blockquote  class="blockquote-photos fragment " cite="http://searchservervirtualization.techtarget.com/definition/Our-Favorite-Technology-Quotations">
+                      12 empresas juniores se apresentaram.
+					</blockquote>
+                    
+                      <blockquote  class="blockquote-photos fragment " cite="http://searchservervirtualization.techtarget.com/definition/Our-Favorite-Technology-Quotations">
+                       14 empresas sediaram o evento.
+					</blockquote>
+                        
+                          <blockquote  class="blockquote-photos fragment " cite="http://searchservervirtualization.techtarget.com/definition/Our-Favorite-Technology-Quotations">
+                      16 pitchs realizados.
+					</blockquote>
+                        
+                        <blockquote  class="blockquote-photos fragment " cite="http://searchservervirtualization.techtarget.com/definition/Our-Favorite-Technology-Quotations">
+                      Média de 40 pessoas por edição.
+					</blockquote>
+                </section>
+                
+                
+                  <section  data-background="lib/img/evento.png" data-background-transition="convex">
+                    <h3>Eventos realizados</h3>
+                        <h4>Startup Dojo no Caju Valley</h4>
+                        <blockquote  class="blockquote-photos fragment " cite="http://searchservervirtualization.techtarget.com/definition/Our-Favorite-Technology-Quotations">
+                      6 edições (frequência mensal).
+					</blockquote>
+                        <blockquote  class="blockquote-photos fragment " cite="http://searchservervirtualization.techtarget.com/definition/Our-Favorite-Technology-Quotations">
+                      Público focado em empreendedores.
+					</blockquote>
+                                               
+                          <blockquote  class="blockquote-photos fragment " cite="http://searchservervirtualization.techtarget.com/definition/Our-Favorite-Technology-Quotations">
+                      6 especialistas ofereceram consultoria colaborativa.
+					</blockquote>
+                        
+                        <blockquote  class="blockquote-photos fragment " cite="http://searchservervirtualization.techtarget.com/definition/Our-Favorite-Technology-Quotations">
+                      Média de 10 empreendedores por edição.
+					</blockquote>
+                </section>
+                
+                
+                    
+                  <section  data-background="lib/img/evento.png" data-background-transition="convex">
+                    <h3>Eventos realizados</h3>
+                        <h4>Startup Day (parceria com Sebrae)</h4>
+                        <blockquote  class="blockquote-photos fragment " cite="http://searchservervirtualization.techtarget.com/definition/Our-Favorite-Technology-Quotations">
+                        1 edição.
+					</blockquote>
+                        <blockquote  class="blockquote-photos fragment " cite="http://searchservervirtualization.techtarget.com/definition/Our-Favorite-Technology-Quotations">
+                       200 pessoas.
+					</blockquote>
+                                               
+                          <blockquote  class="blockquote-photos fragment " cite="http://searchservervirtualization.techtarget.com/definition/Our-Favorite-Technology-Quotations">
+                      8 pitchs de negócios inovadores locais.
+					</blockquote>
+                        <blockquote  class="blockquote-photos fragment " cite="http://searchservervirtualization.techtarget.com/definition/Our-Favorite-Technology-Quotations">
+                      7 palestras.
+					</blockquote>
+                </section>
+                
+                
+                 <section  data-background="lib/img/facebook.png" data-background-transition="convex">
+                    <h4><i class="fa fa-facebook-official" aria-hidden="true"></i> Facebook</h4>
+                                      <blockquote  class="blockquote-photos fragment " cite="http://searchservervirtualization.techtarget.com/definition/Our-Favorite-Technology-Quotations">
+                      <i class="fa fa-thumbs-o-up" style="padding-left:5px" aria-hidden="true"></i>   1500 curtidas 
+					</blockquote>
+                     <img  class="fragment" src="lib/img/curtidas.png" />         
+                </section>
+                
+                  <section  data-background="lib/img/facebook.png" data-background-transition="convex">
+                    <h4><i class="fa fa-facebook-official" aria-hidden="true"></i> Facebook</h4>
+                                      <blockquote  class="blockquote-photos fragment " cite="http://searchservervirtualization.techtarget.com/definition/Our-Favorite-Technology-Quotations">
+                       <i class="fa  fa-video-camera" aria-hidden="true"></i>  Média de 500 visualizações orgânicas por vídeo.
+					</blockquote>
+                      
+                              <blockquote  class="blockquote-photos fragment " cite="http://searchservervirtualization.techtarget.com/definition/Our-Favorite-Technology-Quotations">
+                       <i class="fa fa-eye" aria-hidden="true"></i>  Média de 600 visualizações orgânicas por post.
+					</blockquote>
+                      
+                              <blockquote  class="blockquote-photos fragment " cite="http://searchservervirtualization.techtarget.com/definition/Our-Favorite-Technology-Quotations">
+                  Média de 4.000 visualizações por mês.  
+					</blockquote>
+                                     
+                </section>
+                
+                
+                 <!-- Como funciona -->
+                 <section  data-background="lib/img/15.png" data-background-transition="convex">
+                    <h1>Cotas de patrocínio</h1>     
+                </section>
+                
+               <!--  COTA OURO -->
+                <section  data-background="lib/img/15.png" data-background-transition="convex">
+                    <h3>Cotas ouro - Benefícios</h3> 
+                     <blockquote  class="blockquote-gold fragment " cite="http://searchservervirtualization.techtarget.com/definition/Our-Favorite-Technology-Quotations">
+                           5 minutos de apresentação comercial durante o evento.
+					</blockquote>
+                     <blockquote  class="blockquote-gold fragment " cite="http://searchservervirtualization.techtarget.com/definition/Our-Favorite-Technology-Quotations">
+                          Estande dentro do evento.
+					</blockquote>
+                    <blockquote  class="blockquote-gold fragment " cite="http://searchservervirtualization.techtarget.com/definition/Our-Favorite-Technology-Quotations">
+                          Banner da empresa no evento.
+					</blockquote>
+                      <blockquote  class="blockquote-gold fragment " cite="http://searchservervirtualization.techtarget.com/definition/Our-Favorite-Technology-Quotations">
+                        Logo no início de cada vídeo produzido no evento.
+					</blockquote>
+                     <blockquote  class="blockquote-gold fragment " cite="http://searchservervirtualization.techtarget.com/definition/Our-Favorite-Technology-Quotations">
+                          Logo no site do evento.
+					</blockquote>
+                       <blockquote  class="blockquote-gold fragment " cite="http://searchservervirtualization.techtarget.com/definition/Our-Favorite-Technology-Quotations">
+                         Distribuição de flyer e cartões para todo os presentes.
+					</blockquote>
+                </section>
+                
+                <section  data-background="lib/img/15.png" data-background-transition="convex">
+                    <h3>Cotas ouro - Investimento</h3> 
+                     <table class="table-gold">
+						<thead>
+							<tr>
+								<th>Frequência</th>
+								<th>Valor</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>1 Dojo </td>
+								<td>R$ 500,00</td>
+							</tr>
+							<tr>
+								<td>2 Dojos</td>
+								<td>R$ 800,00</td>
+							</tr>
+							<tr>
+								<td>3 Dojos</td>
+								<td>R$ 1200,00</td>
+							</tr>
+                            <tr>
+								<td>4 Dojos</td>
+								<td>R$ 1500,00</td>
+							</tr>
+						</tbody>
+					</table>
+                        
+                </section>
+                
+                 <!--  COTA PRATA -->
+                 <section  data-background="lib/img/15.png" data-background-transition="convex">
+                    <h3>Cota prata - Benefícios </h3>   
+                   
+                       <blockquote  class="blockquote-silver fragment " cite="http://searchservervirtualization.techtarget.com/definition/Our-Favorite-Technology-Quotations">
+                            2 minutos de apresentação comercial durante o evento.
+					</blockquote>
 
-                <p class=" fragment  shadow-text fade-in">Discussões no formato Alcoólicos Anônimos onde a privacidade das informações discutidas e respeito entre os presentes são a regra.</p>
+                     <blockquote  class="blockquote-silver fragment " cite="http://searchservervirtualization.techtarget.com/definition/Our-Favorite-Technology-Quotations">
+                          Banner da empresa no evento.
+					</blockquote>
+                                       
+                     <blockquote  class="blockquote-silver fragment " cite="http://searchservervirtualization.techtarget.com/definition/Our-Favorite-Technology-Quotations">
+                        Logo no final de cada vídeo produzido no evento.
+					</blockquote>
+                     <blockquote  class="blockquote-silver fragment " cite="http://searchservervirtualization.techtarget.com/definition/Our-Favorite-Technology-Quotations">
+                          Logo no site do evento.
+					</blockquote>
+                                            <blockquote  class="blockquote-silver fragment " cite="http://searchservervirtualization.techtarget.com/definition/Our-Favorite-Technology-Quotations">
+                         Distribuição de flyer e cartões para todo os presentes.
+					</blockquote>
+                </section>
+                
+                 <section  data-background="lib/img/15.png" data-background-transition="convex">
+                    <h3>Cotas prata - Investimento</h3> 
+                     <table class="table-silver">
+						<thead>
+							<tr>
+								<th>Frequência</th>
+								<th>Valor</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>1 Dojo </td>
+								<td>R$ 300,00</td>
+							</tr>
+							<tr>
+								<td>2 Dojos</td>
+								<td>R$ 500,00</td>
+							</tr>
+							<tr>
+								<td>3 Dojos</td>
+								<td>R$ 700,00</td>
+							</tr>
+                            <tr>
+								<td>4 Dojos</td>
+								<td>R$ 900,00</td>
+							</tr>
+						</tbody>
+					</table>
+                </section>
+                
+                
+                <!--  COTA BRONZE -->
+                 <section  data-background="lib/img/15.png" data-background-transition="convex">
+                    <h3>Cotas bronze - Benefícios</h3>  
+                    <blockquote  class="blockquote-bronze fragment " cite="http://searchservervirtualization.techtarget.com/definition/Our-Favorite-Technology-Quotations">
+                          Banner da empresa no evento
+					</blockquote>
+                    <blockquote  class="blockquote-bronze fragment " cite="http://searchservervirtualization.techtarget.com/definition/Our-Favorite-Technology-Quotations">
+                          Logo no site do evento.
+					</blockquote> 
+                                            <blockquote  class="blockquote-bronze fragment " cite="http://searchservervirtualization.techtarget.com/definition/Our-Favorite-Technology-Quotations">
+                         Distribuição de flyer e cartões para todo os presentes.
+					</blockquote>
+                     
+                </section>
+                
+                     <section  data-background="lib/img/15.png" data-background-transition="convex">
+                    <h3>Cotas bronze - Investimento</h3> 
+                     <table class="table-bronze">
+						<thead>
+							<tr>
+								<th>Frequência</th>
+								<th>Valor</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>1 Dojo </td>
+								<td>R$ 120,00</td>
+							</tr>
+							<tr>
+								<td>2 Dojos</td>
+								<td>R$ 200,00</td>
+							</tr>
+							<tr>
+								<td>3 Dojos</td>
+								<td>R$ 290,00</td>
+							</tr>
+                            <tr>
+								<td>4 Dojos</td>
+								<td>R$ 390,00</td>
+							</tr>
+						</tbody>
+					</table>  
+                </section>
+                
+                
+                                <!-- Capa  -->
+                <section  data-background="lib/img/03.png" data-background-transition="convex">
+                   <h2 style="margin-top:-20%">Dojo no Caju Valley</h2>
+					<h4>MidiaKit</h4>
+					<p>
+					 Email <a href="https://www.facebook.com/cajuvalley/?fref=ts">Caju Valley</a>
+					</p>
+                    
+                    		<p>
+					 Telefone <a href="https://www.facebook.com/cajuvalley/?fref=ts">Caju Valley</a>
+					</p>
+                    		<p>
+					 Site <a href="https://www.facebook.com/cajuvalley/?fref=ts">Caju Valley</a>
+					</p>
+                    
+                </section>
+                
+			</div>
+		</div>
 
-            </section>
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
 
+		<script>
+			// More info https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				history: true,
 
-            <section id="buscamos" class="slide1" data-background="lib/img/img24.jpg" data-background-transition="convex">
-                <h3 class="shadow-text wow zoomIn"> Existem outros eventos</h3>
-                <p class="shadow-text fragment fade-in"><strong >Coding Dojo: </strong>encontros informais para programar.</p>
-                <p class="shadow-text fragment fade-in"><strong >Bar Code: </strong> palestras curtas + cerveja.</p>
-                <p class=" fragment  shadow-text fade-in"><strong >Open Bar: </strong> hangouts para discutir abertamente temas da comunidade.</p>
-                <p class=" fragment  shadow-text fade-in">Mulheres empoderem-se</p>
-                <p class=" fragment  shadow-text fade-in">Encontro de Empreendedores no Caju Valley.</p>
-            </section>
-
-
-            <section class="slide1 wow" data-background="lib/img/img21.jpg" data-background-transition="convex">
-                <h1 class="shadow-text wow slideInUp" style="font-size: 3.8em;">Caju Valley</h1>
-                <h3 class="shadow-text wow slideInRight">Interaja, critique  e <strong > modifique</strong>
-</h3>
-                <h4 class="shadow-text ">Acesse <a href="https://www.facebook.com/cajuvalley?fref=ts" target="_blank">aqui</a></h4>
-
-            </section>
-
-
-        </div>
-
-    </div>
-
-    <script src="lib/js/head.min.js"></script>
-    <script src="js/reveal.js"></script>
-
-    <script>
-        // Full list of configuration options available at:
-        // https://github.com/hakimel/reveal.js#configuration
-        Reveal.initialize({
-            controls: true,
-            progress: true,
-            history: true,
-            center: true,
-
-            transition: 'slide', // none/fade/slide/convex/concave/zoom
-
-            // Optional reveal.js plugins
-            dependencies: [
-                {
-                    src: 'lib/js/classList.js',
-                    condition: function () {
-                        return !document.body.classList;
-                    }
-                },
-                {
-                    src: 'plugin/markdown/marked.js',
-                    condition: function () {
-                        return !!document.querySelector('[data-markdown]');
-                    }
-                },
-                {
-                    src: 'plugin/markdown/markdown.js',
-                    condition: function () {
-                        return !!document.querySelector('[data-markdown]');
-                    }
-                },
-                {
-                    src: 'plugin/highlight/highlight.js',
-                    async: true,
-                    condition: function () {
-                        return !!document.querySelector('pre code');
-                    },
-                    callback: function () {
-                        hljs.initHighlightingOnLoad();
-                    }
-                },
-                {
-                    src: 'plugin/zoom-js/zoom.js',
-                    async: true
-                },
-                {
-                    src: 'plugin/notes/notes.js',
-                    async: true
-                }
-    ]
-        });
-    </script>
-    <script src="lib/js/wow.js"></script>
-
-
-</body>
-
+				// More info https://github.com/hakimel/reveal.js#dependencies
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+	</body>
 </html>

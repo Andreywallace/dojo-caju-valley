@@ -5,213 +5,153 @@ based on dark.css by Ivan Sagalaev
 
 */
 
-strong{
-color: #aee074;
+
+h1 , h2 , p{
+text-shadow: 2px 2.764px 7px #171717 !important;
 }
 
-.slide1 {
-    height: 100%;
-}
-/* Celulares pequenos*/
 
-@media screen and (max-width: 470px) {
-    .slides {
-        top: 28% !important;
-    }
-    .slide p {
-        font-size: 2.4rem !important;
-        padding: 0px 10% !important;
-    }
-    #significado h4 {
-        padding: 0px 15% !important;
-    }
+@media screen and (min-width:920px){
+.sm-p {
+font-size: 70% !important;
 }
-/* Celulares e tablets*/
+    
+    }
 
-@media (min-width: 470px) and (max-width: 1170px) {
-    .slides {
-        top: 30% !important;
-    }
-    .slide p {
-        font-size: 2.8rem !important;
-        line-height: 1;
-    }
-}
-/*Computadores*/
-
-@media screen and (min-width: 1170px) {
-    #inicial {
-        width: 100% !important;
-        height: 100% !important;
-    }
-    .slide1 {
-        background-image: url('http://andreywallace.github.io/presetantion-caju-valley/lib/img/bg_video.png');
-        padding-top: 10% !important;
-    }
-    .slide p {
-        padding: 0px 5% !important;
-        font-size: 1.8rem !important;
-    }
-    #significado h4 {
-        padding: 0px 5% !important;
-    }
-}
-/*Computadores e televisores*/
-
-@media screen and (min-width: 1470px) {
-    .slide p {
-        padding: 0px 15% !important;
-        font-size: 1.7rem !important;
-        line-height: 1;
-    }
-    #significado h4 {
-        padding: 0px 15% !important;
-    }
-    .slide {
-        padding-bottom: 10%;
-    }
+i {
+padding-right: 5px;
 }
 
-@media screen and (min-width: 2000px) {
-    .slide p {
-        font-size: 1.9rem !important;
-        padding: 0px 25% !important;
-    }
+
+.blockquote-photos{
+    background:  rgba(49, 49, 49, 0.69) !important;
+    margin-top: 30px !important;
 }
 
-@media (min-width: 2000px) and (min-height: 970px) {
-    .slide1 {
-        padding-top: 5% !important;
-    }
+.blockquote-gold {
+    background: rgba(240, 255, 10, 0.7) !important;
+    margin-top: 20px !important;
+    color: black !important;
 }
 
-@media screen and (min-height: 970px) {
-    .slide1 {
-        padding-top: 12% !important;
-    }
+.blockquote-silver {
+    background: rgba(192, 192, 192, 0.83) !important;
+    margin-top: 20px !important;
+    color: black !important;
 }
 
-.shadow-text {
-    text-shadow: 2px 2px black !important;
-    color: white;
+.blockquote-bronze {
+    background: rgba(60, 40, 16, 0.77) !important;
+    margin-top: 20px !important;
 }
 
-.reveal a {
-    color: #d71f26;
+
+.table-dojo{
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.2);
+     background:  rgba(49, 49, 49, 0.69) !important;
 }
 
-.reveal a:hover {
-    color: #f52434;
-    text-shadow: 1px 1px black !important;
+
+.table-gold{
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.2);
+    color:black !important;
+      background: rgba(240, 255, 10, 0.7) !important;
 }
 
+.table-silver{
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.2);
+    color:black !important;
+    background: rgba(192, 192, 192, 0.83) !important;
+}
+
+.table-bronze{
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.2);
+    background: rgba(60, 40, 16, 0.77) !important;
+}
+
+
+
+.reveal section img {
+    margin: 15px 0px;
+    background: rgba(255, 255, 255, 0.74) !important;
+     border: 0px solid #eee !important; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15); 
+}
+
+
+
+
+/******************************/
 .hljs {
-    display: block;
-    padding: 0.5em;
-    background: #3F3F3F;
-    color: #DCDCDC;
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #3f3f3f;
+  color: #dcdcdc;
 }
 
 .hljs-keyword,
-.hljs-tag,
-.css .hljs-class,
-.css .hljs-id,
-.lisp .hljs-title,
-.nginx .hljs-title,
-.hljs-request,
-.hljs-status,
-.clojure .hljs-attribute {
-    color: #E3CEAB;
+.hljs-selector-tag,
+.hljs-tag {
+  color: #e3ceab;
 }
 
-.django .hljs-template_tag,
-.django .hljs-variable,
-.django .hljs-filter .hljs-argument {
-    color: #DCDCDC;
+.hljs-template-tag {
+  color: #dcdcdc;
 }
 
-.hljs-number,
-.hljs-date {
-    color: #8CD0D3;
+.hljs-number {
+  color: #8cd0d3;
 }
 
-.dos .hljs-envvar,
-.dos .hljs-stream,
 .hljs-variable,
-.apache .hljs-sqbracket {
-    color: #EFDCBC;
+.hljs-template-variable,
+.hljs-attribute {
+  color: #efdcbc;
 }
 
-.dos .hljs-flow,
-.diff .hljs-change,
-.python .exception,
-.python .hljs-built_in,
-.hljs-literal,
-.tex .hljs-special {
-    color: #EFEFAF;
+.hljs-literal {
+  color: #efefaf;
 }
 
-.diff .hljs-chunk,
 .hljs-subst {
-    color: #8F8F8F;
+  color: #8f8f8f;
 }
 
-.dos .hljs-keyword,
-.python .hljs-decorator,
 .hljs-title,
-.haskell .hljs-type,
-.diff .hljs-header,
-.ruby .hljs-class .hljs-parent,
-.apache .hljs-tag,
-.nginx .hljs-built_in,
-.tex .hljs-command,
-.hljs-prompt {
-    color: #efef8f;
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-section,
+.hljs-type {
+  color: #efef8f;
 }
 
-.dos .hljs-winutils,
-.ruby .hljs-symbol,
-.ruby .hljs-symbol .hljs-string,
-.ruby .hljs-string {
-    color: #DCA3A3;
+.hljs-symbol,
+.hljs-bullet,
+.hljs-link {
+  color: #dca3a3;
 }
 
-.diff .hljs-deletion,
+.hljs-deletion,
 .hljs-string,
-.hljs-tag .hljs-value,
-.hljs-preprocessor,
-.hljs-pragma,
 .hljs-built_in,
-.sql .hljs-aggregate,
-.hljs-javadoc,
-.smalltalk .hljs-class,
-.smalltalk .hljs-localvars,
-.smalltalk .hljs-array,
-.css .hljs-rules .hljs-value,
-.hljs-attr_selector,
-.hljs-pseudo,
-.apache .hljs-cbracket,
-.tex .hljs-formula,
-.coffeescript .hljs-attribute {
-    color: #CC9393;
+.hljs-builtin-name {
+  color: #cc9393;
 }
 
-.hljs-shebang,
-.diff .hljs-addition,
+.hljs-addition,
 .hljs-comment,
-.java .hljs-annotation,
-.hljs-template_comment,
-.hljs-pi,
-.hljs-doctype {
-    color: #7F9F7F;
+.hljs-quote,
+.hljs-meta {
+  color: #7f9f7f;
 }
 
-.coffeescript .javascript,
-.javascript .xml,
-.tex .hljs-formula,
-.xml .javascript,
-.xml .vbscript,
-.xml .css,
-.xml .hljs-cdata {
-    opacity: 0.5;
+
+.hljs-emphasis {
+  font-style: italic;
+}
+
+.hljs-strong {
+  font-weight: bold;
 }
